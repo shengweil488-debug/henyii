@@ -1,0 +1,197 @@
+/* 适合学校的现代美观UI全局样式 */
+:root {
+  --primary: #3578e5;
+  --primary-light: #eaf2fb;
+  --primary-dark: #2456a6;
+  --success: #43b97f;
+  --danger: #e35d6a;
+  --warning: #ffd966;
+  --info: #5bc0de;
+  --gray: #f5f6fa;
+  --gray-dark: #6c757d;
+  --white: #fff;
+  --border-radius: 16px;
+  --shadow: 0 2px 8px rgba(44,62,80,0.08);
+  --shadow-hover: 0 4px 16px rgba(44,62,80,0.13);
+  --transition: all 0.18s cubic-bezier(.4,2,.6,1);
+}
+body {
+  background: var(--gray);
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1rem;
+}
+body.dark-mode {
+  background: #232946;
+  color: #f3f6fa;
+}
+.container, .main-card, .card, .stats-card, .feature-card, .welcome-card {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 2rem 1.5rem;
+  margin-bottom: 2rem;
+  transition: var(--transition);
+}
+body.dark-mode .container, body.dark-mode .main-card, body.dark-mode .card, body.dark-mode .stats-card, body.dark-mode .feature-card, body.dark-mode .welcome-card {
+  background: #2a2d3e;
+  color: #f3f6fa;
+  box-shadow: 0 2px 12px rgba(44,62,80,0.18);
+}
+.btn, .btn-feature, .approval-btn {
+  border: none;
+  border-radius: 2em;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.6em 2em;
+  background: var(--primary);
+  color: #fff;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.btn:hover, .btn-feature:hover, .approval-btn:hover {
+  background: var(--primary-dark);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px) scale(1.04);
+}
+.btn-success, .approval-btn.approve {
+  background: var(--success);
+}
+.btn-success:hover, .approval-btn.approve:hover {
+  background: #2e8b57;
+}
+.btn-danger, .approval-btn.reject {
+  background: var(--danger);
+}
+.btn-danger:hover, .approval-btn.reject:hover {
+  background: #b03a48;
+}
+.btn-secondary {
+  background: var(--gray-dark);
+  color: #fff;
+}
+.btn-secondary:hover {
+  background: #444950;
+}
+.table {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+body.dark-mode .table {
+  background: #2a2d3e;
+  color: #f3f6fa;
+}
+.table th {
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  font-weight: 700;
+}
+body.dark-mode .table th {
+  background: #232946;
+  color: #7f7fd5;
+}
+.table td {
+  background: var(--white);
+  color: #222;
+}
+body.dark-mode .table td {
+  background: #2a2d3e;
+  color: #f3f6fa;
+}
+.approval-badge, .badge {
+  display: inline-block;
+  padding: 0.4em 1.2em;
+  border-radius: 1.2em;
+  font-weight: 600;
+  font-size: 0.98rem;
+  margin: 0 2px;
+  background: var(--gray);
+  color: #222;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+.approval-badge.approved, .badge.bg-success {
+  background: var(--success);
+  color: #fff;
+}
+.approval-badge.rejected, .badge.bg-danger {
+  background: var(--danger);
+  color: #fff;
+}
+.approval-badge.pending, .badge.bg-warning {
+  background: var(--warning);
+  color: #222;
+}
+input, select, textarea {
+  border-radius: 1.2em !important;
+  border: 1px solid #d1d5db !important;
+  padding: 0.7em 1.2em !important;
+  font-size: 1rem;
+  background: #fff !important;
+  color: #222 !important;
+  transition: var(--transition);
+}
+input:focus, select:focus, textarea:focus {
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 2px #3578e533;
+}
+body.dark-mode input, body.dark-mode select, body.dark-mode textarea {
+  background: #232946 !important;
+  color: #f3f6fa !important;
+  border: 1px solid #444950 !important;
+}
+.navbar, .topbar {
+  background: var(--primary);
+  color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+body.dark-mode .navbar, body.dark-mode .topbar {
+  background: #232946;
+  color: #f3f6fa;
+}
+h1, h2, h3, h4, h5 {
+  color: var(--primary-dark);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5 {
+  color: #7f7fd5;
+}
+label, .form-label {
+  color: var(--primary-dark);
+  font-weight: 600;
+}
+body.dark-mode label, body.dark-mode .form-label {
+  color: #bfc6e0;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #eaf2fb;
+}
+::-webkit-scrollbar-thumb {
+  background: #bfc6e0;
+  border-radius: 8px;
+}
+body.dark-mode ::-webkit-scrollbar {
+  background: #232946;
+}
+body.dark-mode ::-webkit-scrollbar-thumb {
+  background: #444950;
+}
+/* 轻微hover浮起 */
+.card, .main-card, .feature-card, .stats-card, .welcome-card, .table, .btn, .btn-feature, .approval-btn {
+  transition: var(--transition);
+}
+.card:hover, .main-card:hover, .feature-card:hover, .stats-card:hover, .welcome-card:hover, .table:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px) scale(1.02);
+} 

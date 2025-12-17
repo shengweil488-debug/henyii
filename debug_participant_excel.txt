@@ -1,0 +1,362 @@
+Array
+(
+    [id] => 35
+    [activity_id] => 35
+    [user_id] => 
+    [student_id] => 17
+    [class] => 
+    [gender] => 
+    [race] => 
+    [religion] => 
+    [achievement] => islam
+    [participant_class] => 1A
+    [participant_gender] => M
+    [participant_race] => Chinese
+    [participant_religion] => 基督教
+    [username] => 
+    [student_no] => 1234
+    [student_name] => Test1
+)
+Array
+(
+    [id] => 36
+    [activity_id] => 35
+    [user_id] => 
+    [student_id] => 2
+    [class] => 1A
+    [gender] => Female
+    [race] => Chinese
+    [religion] => 佛教
+    [achievement] => islam
+    [participant_class] => 1A
+    [participant_gender] => F
+    [participant_race] => Chinese
+    [participant_religion] => 佛教
+    [username] => 
+    [student_no] => 1001
+    [student_name] => Alice
+)
+Array
+(
+    [id] => 37
+    [activity_id] => 36
+    [user_id] => 
+    [student_id] => 18
+    [class] => 
+    [gender] => 
+    [race] => 
+    [religion] => 
+    [achievement] => 6788
+    [participant_class] => 1A
+    [participant_gender] => M
+    [participant_race] => Chinese
+    [participant_religion] => 佛教
+    [username] => 
+    [student_no] => 1478
+    [student_name] => yh
+)
+Array
+(
+    [id] => 38
+    [activity_id] => 36
+    [user_id] => 
+    [student_id] => 17
+    [class] => 
+    [gender] => 
+    [race] => 
+    [religion] => 
+    [achievement] => 6788
+    [participant_class] => 1A
+    [participant_gender] => M
+    [participant_race] => Chinese
+    [participant_religion] => 伊斯兰教
+    [username] => 
+    [student_no] => 1234
+    [student_name] => Test1
+)
+Array
+(
+    [id] => 43
+    [activity_id] => 37
+    [user_id] => 
+    [student_id] => 19
+    [class] => 
+    [gender] => 
+    [race] => 
+    [religion] => 
+    [achievement] => 6788
+    [participant_class] => 1b
+    [participant_gender] => M
+    [participant_race] => Chinese
+    [participant_religion] => 基督教
+    [username] => 
+    [student_no] => 7894
+    [student_name] => Test2
+)
+Array
+(
+    [id] => 44
+    [activity_id] => 37
+    [user_id] => 
+    [student_id] => 17
+    [class] => 
+    [gender] => 
+    [race] => 
+    [religion] => 
+    [achievement] => 6788
+    [participant_class] => 12
+    [participant_gender] => M
+    [participant_race] => Chinese
+    [participant_religion] => 佛教
+    [username] => 
+    [student_no] => 1234
+    [student_name] => Test1
+)
+Array
+(
+    [id] => 43
+    [activity_id] => 37
+    [user_id] => 
+    [student_id] => 19
+    [class] => 
+    [gender] => 
+    [race] => 
+    [religion] => 
+    [achievement] => 6788
+    [participant_class] => 1b
+    [participant_gender] => M
+    [participant_race] => Chinese
+    [participant_religion] => 基督教
+    [username] => 
+    [student_no] => 7894
+    [student_name] => Test2
+)
+Array
+(
+    [id] => 44
+    [activity_id] => 37
+    [user_id] => 
+    [student_id] => 17
+    [class] => 
+    [gender] => 
+    [race] => 
+    [religion] => 
+    [achievement] => 6788
+    [participant_class] => 12
+    [participant_gender] => M
+    [participant_race] => Chinese
+    [participant_religion] => 佛教
+    [username] => 
+    [student_no] => 1234
+    [student_name] => Test1
+)
+Array
+(
+    [id] => 49
+    [activity_id] => 39
+    [user_id] => 
+    [student_id] => 20
+    [class] => 
+    [gender] => 
+    [race] => 
+    [religion] => 
+    [achievement] => 6788
+    [participant_class] => 1A
+    [participant_gender] => M
+    [participant_race] => Chinese
+    [participant_religion] => 基督教
+    [username] => 
+    [student_no] => 14568
+    [student_name] => jj
+)
+Array
+(
+    [id] => 50
+    [activity_id] => 39
+    [user_id] => 
+    [student_id] => 2
+    [class] => 1A
+    [gender] => Female
+    [race] => Chinese
+    [religion] => 佛教
+    [achievement] => 6788
+    [participant_class] => 1A
+    [participant_gender] => F
+    [participant_race] => Chinese
+    [participant_religion] => 佛教
+    [username] => 
+    [student_no] => 1001
+    [student_name] => Alice
+)
+Array
+(
+    [id] => 55
+    [0] => 55
+    [activity_id] => 42
+    [1] => 42
+    [user_id] => 
+    [2] => 
+    [student_id] => 17
+    [3] => 17
+    [class] => 1A
+    [4] => 1A
+    [gender] => Male
+    [5] => M
+    [race] => Chinese
+    [6] => Chinese
+    [religion] => 佛教
+    [7] => 
+    [achievement] => 1234
+    [8] => 1234
+    [participant_class] => 1A
+    [9] => 1A
+    [participant_gender] => M
+    [10] => M
+    [participant_race] => Chinese
+    [11] => Chinese
+    [participant_religion] => 佛教
+    [12] => 佛教
+    [13] => 1A
+    [14] => M
+    [15] => Chinese
+    [16] => 佛教
+    [username] => 
+    [17] => 
+    [student_no] => 1234
+    [18] => 1234
+    [student_name] => Test1
+    [19] => Test1
+    [20] => 1A
+    [21] => Male
+    [22] => Chinese
+    [23] => 佛教
+)
+Array
+(
+    [id] => 56
+    [0] => 56
+    [activity_id] => 42
+    [1] => 42
+    [user_id] => 
+    [2] => 
+    [student_id] => 19
+    [3] => 19
+    [class] => 1A
+    [4] => 1A
+    [gender] => Male
+    [5] => M
+    [race] => Chinese
+    [6] => Chinese
+    [religion] => 基督教
+    [7] => 
+    [achievement] => 1234
+    [8] => 1234
+    [participant_class] => 1A
+    [9] => 1A
+    [participant_gender] => M
+    [10] => M
+    [participant_race] => Chinese
+    [11] => Chinese
+    [participant_religion] => 基督教
+    [12] => 基督教
+    [13] => 1A
+    [14] => M
+    [15] => Chinese
+    [16] => 基督教
+    [username] => 
+    [17] => 
+    [student_no] => 7894
+    [18] => 7894
+    [student_name] => Test2
+    [19] => Test2
+    [20] => 1A
+    [21] => Male
+    [22] => Chinese
+    [23] => 基督教
+)
+Array
+(
+    [id] => 63
+    [0] => 63
+    [activity_id] => 43
+    [1] => 43
+    [user_id] => 
+    [2] => 
+    [student_id] => 2
+    [3] => 2
+    [class] => 1A
+    [4] => 1A
+    [gender] => Female
+    [5] => M
+    [race] => Chinese
+    [6] => Chinese
+    [religion] => 佛教
+    [7] => 
+    [achievement] => 1234
+    [8] => 1234
+    [participant_class] => 
+    [9] => 
+    [participant_gender] => 
+    [10] => 
+    [participant_race] => 
+    [11] => 
+    [participant_religion] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+    [16] => 
+    [username] => 
+    [17] => 
+    [student_no] => 1001
+    [18] => 1001
+    [student_name] => Alice
+    [19] => Alice
+    [20] => 1A
+    [21] => Female
+    [22] => Chinese
+    [23] => 佛教
+)
+Array
+(
+    [id] => 64
+    [0] => 64
+    [activity_id] => 43
+    [1] => 43
+    [user_id] => 
+    [2] => 
+    [student_id] => 18
+    [3] => 18
+    [class] => 12
+    [4] => 12
+    [gender] => Male
+    [5] => M
+    [race] => Chinese
+    [6] => Chinese
+    [religion] => 伊斯兰教
+    [7] => 
+    [achievement] => 
+    [8] => 
+    [participant_class] => 
+    [9] => 
+    [participant_gender] => 
+    [10] => 
+    [participant_race] => 
+    [11] => 
+    [participant_religion] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+    [16] => 
+    [username] => 
+    [17] => 
+    [student_no] => 1478
+    [18] => 1478
+    [student_name] => yh
+    [19] => yh
+    [20] => 12
+    [21] => Male
+    [22] => Chinese
+    [23] => 伊斯兰教
+)
