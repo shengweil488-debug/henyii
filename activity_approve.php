@@ -6,6 +6,7 @@ if ($user['role'] !== 'admin') {
     header('Location: activity_manage.php');
     exit;
 }
+
 $id = $_GET['id'] ?? null;
 if ($id) {
     ActivityController::approve($id);
